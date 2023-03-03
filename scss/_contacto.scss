@@ -1,6 +1,7 @@
 .mainContacto {
     margin-bottom: 100px;
-
+    
+@include botoneraa;
 
 
     .tituloContacto {
@@ -42,8 +43,6 @@
 
         }
     }
-
-
     .subtitulo-Contacto {
         text-align: center;
         font-family: $font-family_2 !important;
@@ -58,8 +57,6 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-
-
 
 
     .informacionDeContacto {
