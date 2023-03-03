@@ -1,0 +1,74 @@
+.mainProductos {
+    margin-top: 160px;
+
+    .imagen1 {
+        margin: 0;
+    }
+
+}
+
+
+
+
+.cont {
+    font-family: $font-family_2 !important;
+
+
+
+    .contenedorPosition {
+        position: sticky;
+        top: 0;
+
+    }
+
+    .titulosH4 {
+        font-size: 30px;
+        margin: 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.160);
+
+
+
+        .precioProductos {
+            color: rgba(0, 0, 0, 0.568);
+        }
+    }
+
+    ul {
+        font-size: 20px;
+        margin: 30px;
+
+    }
+
+    .botonesProducto {
+        margin: 30px;
+
+
+        label {
+
+            margin-right: 20px;
+            margin-block: 30px;
+
+        }
+
+        h4 {
+            font-size: 18px;
+        }
+
+        button {
+            color: $color_1;
+            background-color: black;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 8px;
+            margin-block: 30px;
+        }
+
+        .botonera:hover {
+            background-color: $color_1;
+            color: black;
+            transition: 1s;
+
+        }
+    }
+
+}

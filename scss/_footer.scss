@@ -1,0 +1,88 @@
+.padreFooter {
+    background-color: $background-color_1;
+
+    h3 a {
+
+        outline: none;
+        text-decoration: none;
+        padding: 2px 1px 0;
+        color: $color_2;
+    }
+
+    .boton {
+        padding: 10px;
+        background-color: $background-color_2;
+        color: $color_1;
+        font-size: 15px;
+
+    }
+
+
+
+    .tituloFooter {
+        margin: auto;
+        font-size: 18px;
+        font-family: $font-family_2 ;
+    }
+
+    .formulario1 {
+        margin-top: 40px;
+
+
+        input {
+
+            padding: 10px;
+
+            font-size: 15px;
+        }
+
+    }
+
+}
+
+
+
+.contenedorFooter {
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+
+    font-family: $font-family_2 ;
+    font-size: 16px;
+    margin-left: 5px;
+    white-space: nowrap;
+    text-align: center;
+
+}
+
+.informacion {
+
+    p {
+
+        color: $color_1;
+        background-color: $background-color_2;
+        text-align: center;
+        padding: 20px;
+        font-size: 15px;
+    }
+}
+
+.redesSociales {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+
+    a .imagenRedes {
+
+        width: 20px;
+        margin: 10px;
+    }
+}
+
+.footerContacto {
+    margin-top: 250px;
+}
