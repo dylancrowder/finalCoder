@@ -7,11 +7,19 @@
 
   }
 
+  /* footer web */
+
+  .padreFooter {
+    margin-top: 80px;
+    padding: 120px;
+  }
+
 }
 
-/* footer movil */
+
 @media (max-width: 950px) {
 
+  /* footer movil */
   .mainProductos {
     overflow: hidden;
   }
@@ -40,33 +48,12 @@
 
   }
 
+  /* mobil blog */
 
-}
-
-@media (min-width: 950px) {
-
-
-
-  .padreFooter {
-    margin-top: 80px;
-    padding: 120px;
-  }
-
-
-
-}
-
-
-
-/* responsive blog */
-
-@media (max-width: 950px) {
   .img1 {
 
     width: 90% !important;
   }
-
-
 
   .videos {
 
@@ -79,13 +66,7 @@
 
   }
 
-}
-
-/* contacto movil */
-
-
-@media (max-width: 950px) {
-
+  /* contacto movil */
 
   .contenedorInformacion {
 
@@ -121,17 +102,15 @@
 
   }
 
-}
+
+  /* barra remeras , invierno y pantalones */
+
+  .navegadorIndex {
 
 
-@media (max-width: 950px) {
-
-.navegadorIndex{
-
-
- li a {
-    font-size: 18px;
+    li a {
+      font-size: 18px;
+    }
   }
 }
- 
-}
+
