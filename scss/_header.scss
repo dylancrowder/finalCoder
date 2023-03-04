@@ -1,3 +1,8 @@
+
+.navbar{
+   background-image: url(/imagenes/fondooo.jpg);
+}
+
 .menuDesplegable2 {
     a {
         color: $color_1;
@@ -6,7 +11,7 @@
         font-family: $font-family_2;
 
         &:hover {
-            text-decoration: underline solid rgb(255, 255, 255);
+           @include underLineNav;
         }
     }
 
@@ -30,5 +35,5 @@
 
 
 a:active:before {
-    background-color: blue;
+    background-color: rgb(108, 108, 112);
 }

@@ -1,7 +1,7 @@
 .mainContacto {
     margin-bottom: 100px;
     
-@include botoneraa;
+
 
 
     .tituloContacto {
@@ -37,9 +37,7 @@
         }
 
         .botonContacto1:hover {
-            background-color: $color_1;
-            color: $color_2;
-            transition: 1s;
+            @include botonHover;
 
         }
     }

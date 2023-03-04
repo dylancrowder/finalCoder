@@ -105,7 +105,7 @@
         list-style: none;
         font-family: $font-family_2 !important;
         font-size: 20px;
-        
+
 
       }
     }
@@ -115,10 +115,23 @@
 
       width: 300px;
       height: 300px;
-   
+
 
     }
 
   }
 
+}
+
+
+@media (max-width: 950px) {
+
+.navegadorIndex{
+
+
+ li a {
+    font-size: 18px;
+  }
+}
+ 
 }

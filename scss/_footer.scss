@@ -17,6 +17,10 @@
 
     }
 
+    .boton:hover{
+        @include botonHover;
+    }
+
 
 
     .tituloFooter {
@@ -61,11 +65,7 @@ h3 {
 
     p {
 
-        color: $color_1;
-        background-color: $background-color_2;
-        text-align: center;
-        padding: 20px;
-        font-size: 15px;
+       @include estiloNavFooter;
     }
 }
 

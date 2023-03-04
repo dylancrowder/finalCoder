@@ -1,15 +1,77 @@
 /* main del index */
-.titulo {
-    text-align: center;
-    margin: 100px;
-    font-family: $font-family_2 ;
+
+
+.fondo {
+
+
+    background-image: url(/imagenes/fondooo.jpg);
+    height: 300px;
+
+
+    .titulo {
+        color: white;
+        text-align: center;
+        font-family: $font-family_2 ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+
+
+    }
 }
+
+.navegadorIndex {
+
+    background-color: black;
+    position: sticky !important;
+    top: 0;
+    z-index: 10;
+    margin-bottom: 100px;
+    background: rgb(0, 0, 0);
+    background: rgb(32, 32, 32);
+    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(115, 115, 115, 1) 80%, rgba(144, 144, 144, 1) 100%);
+
+    li a {
+        color: white;
+        font-size: 20px;
+        font-family: $font-family_2;
+
+
+
+    }
+
+    li a:hover {
+        @include underLineNav;
+
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .carta {
     margin: 10px !important;
-    padding: 10px ;
-    width: 22rem ;
+    padding: 10px;
+    width: 22rem;
 
     h3 {
         font-family: $font-family_2 ;
@@ -29,11 +91,13 @@ p {
 .imagenProducto {
     cursor: pointer;
     padding: 15px;
+
 }
 
 .imagenProducto:hover {
     transform: scale(1.05);
     transition: 399ms;
+    z-index: 1;
+
 
 }
-
