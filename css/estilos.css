@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nixie+One&family=Tajawal&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
 .navbar {
-  background-image: url(imagenes/fondooo.jpg);
+  background-image: url(../imagenes/fondooo.jpg);
 }
 
 .menuDesplegable2 a {
@@ -31,7 +31,7 @@ a:active:before {
 
 /* main del index */
 .fondo {
-  background-image: url(imagenes/fondooo.jpg);
+  background-image: url(../imagenes/fondooo.jpg);
   height: 300px;
 }
 .fondo .titulo {
