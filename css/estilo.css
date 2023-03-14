@@ -33,16 +33,16 @@ a:active:before {
 .fondo {
   background-image: url(../imagenes/fondooo.jpg);
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .fondo .titulo {
   color: white;
   text-align: center;
   font-family: "Rajdhani", sans-serif;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 50px;
+  margin-bottom: 60px;
 }
 
 .navegadorIndex {
@@ -241,6 +241,82 @@ ul {
   transition: 1s;
 }
 
+.padreFooter {
+  background-color: #E5E5E5;
+}
+.padreFooter h3 a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+.padreFooter .boton {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+.padreFooter .boton:hover {
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+.padreFooter .tituloFooter {
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Rajdhani", sans-serif;
+  margin-bottom: 50px;
+}
+.padreFooter .tituloFooter a:hover {
+  color: azure;
+}
+.padreFooter .formulario1 {
+  margin-top: 20px;
+}
+.padreFooter .formulario1 input {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contenedorFooter {
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  margin-left: 5px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.informacion p {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.redesSociales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.redesSociales a .imagenRedes {
+  width: 30px;
+  margin: 10px;
+}
+.redesSociales a .imagenRedes:hover {
+  filter: invert(1);
+}
+
+.footerContacto {
+  margin-top: 250px;
+}
+
 /* navegador web */
 @media (min-width: 950px) {
   .navbar-brand {
@@ -249,7 +325,7 @@ ul {
   /* footer web */
   .padreFooter {
     margin-top: 80px;
-    padding: 120px;
+    padding: 70px;
   }
 }
 @media (max-width: 950px) {
@@ -272,6 +348,12 @@ ul {
   .contenedorFooter .boton {
     margin: 10px;
     font-size: 15px;
+  }
+  .contenedorFooter .redesSociales a {
+    margin: 10px;
+  }
+  .contenedorFooter .redesSociales .imagenRedes {
+    width: 60px;
   }
   /* mobil blog */
   .img1 {
@@ -304,73 +386,5 @@ ul {
     font-size: 18px;
   }
 }
-.padreFooter {
-  background-color: #E5E5E5;
-}
-.padreFooter h3 a {
-  outline: none;
-  text-decoration: none;
-  padding: 2px 1px 0;
-  color: black;
-}
-.padreFooter .boton {
-  padding: 10px;
-  background-color: black;
-  color: white;
-  font-size: 15px;
-}
-.padreFooter .boton:hover {
-  background-color: white;
-  color: black;
-  transition: 1s;
-}
-.padreFooter .tituloFooter {
-  margin: auto;
-  font-size: 18px;
-  font-family: "Rajdhani", sans-serif;
-}
-.padreFooter .formulario1 {
-  margin-top: 40px;
-}
-.padreFooter .formulario1 input {
-  padding: 10px;
-  font-size: 15px;
-}
 
-.contenedorFooter {
-  display: flex;
-  flex-direction: row;
-}
-
-h3 {
-  font-family: "Rajdhani", sans-serif;
-  font-size: 16px;
-  margin-left: 5px;
-  white-space: nowrap;
-  text-align: center;
-}
-
-.informacion p {
-  color: white;
-  background-color: black;
-  text-align: center;
-  padding: 20px;
-  font-size: 15px;
-}
-
-.redesSociales {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 30px;
-}
-.redesSociales a .imagenRedes {
-  width: 20px;
-  margin: 10px;
-}
-
-.footerContacto {
-  margin-top: 250px;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilo.css.map */

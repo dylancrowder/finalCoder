@@ -11,7 +11,7 @@
 
   .padreFooter {
     margin-top: 80px;
-    padding: 120px;
+    padding: 70px;
   }
 
 }
@@ -19,7 +19,11 @@
 
 @media (max-width: 950px) {
 
+
+
   /* footer movil */
+
+
   .mainProductos {
     overflow: hidden;
   }
@@ -27,6 +31,7 @@
   .padreFooter {
     padding-block: 50px;
   }
+
 
   .contenedorFooter {
     display: flex;
@@ -44,6 +49,19 @@
       font-size: 15px;
     }
 
+
+.redesSociales{
+  a{
+   
+    margin: 10px;
+  }
+
+  .imagenRedes{
+    width: 60px;
+    
+
+  }
+}
 
 
   }
@@ -113,4 +131,3 @@
     }
   }
 }
-

@@ -1,11 +1,12 @@
 .padreFooter {
     background-color: $background-color_1;
 
+
+
     h3 a {
 
         outline: none;
         text-decoration: none;
-        padding: 2px 1px 0;
         color: $color_2;
     }
 
@@ -17,7 +18,7 @@
 
     }
 
-    .boton:hover{
+    .boton:hover {
         @include botonHover;
     }
 
@@ -25,12 +26,18 @@
 
     .tituloFooter {
         margin: auto;
+        text-align: center;
         font-size: 18px;
         font-family: $font-family_2 ;
+        margin-bottom: 50px;
+    }
+
+    .tituloFooter a:hover {
+        color: azure ;
     }
 
     .formulario1 {
-        margin-top: 40px;
+        margin-top: 20px;
 
 
         input {
@@ -65,7 +72,7 @@ h3 {
 
     p {
 
-       @include estiloNavFooter;
+        @include estiloNavFooter;
     }
 }
 
@@ -74,12 +81,18 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 30px;
+    margin-top: 60px;
 
     a .imagenRedes {
-
-        width: 20px;
+        width: 30px;
         margin: 10px;
+
+    }
+
+
+
+    a .imagenRedes:hover {
+        filter: invert(1) ;
     }
 }
 
