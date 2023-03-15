@@ -30,9 +30,13 @@ a:active:before {
 }
 
 /* main del index */
+body {
+  overflow-x: hidden;
+}
+
 .fondo {
   background-image: url(../imagenes/fondooo.jpg);
-  height: 300px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +45,7 @@ a:active:before {
   color: white;
   text-align: center;
   font-family: "Rajdhani", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 60px;
 }
 
@@ -52,10 +56,6 @@ a:active:before {
   z-index: 10;
   margin-bottom: 100px;
   background: rgb(0, 0, 0);
-  background: rgb(32, 32, 32);
-  background: rgb(0, 0, 0);
-  background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(115, 115, 115) 80%, rgb(144, 144, 144) 100%);
 }
 .navegadorIndex li a {
   color: white;
@@ -130,7 +130,7 @@ p {
   margin-bottom: 100px;
 }
 .mainContacto .tituloContacto {
-  margin-top: 50px;
+  margin-top: 30px;
   text-align: center;
   font-family: "Rajdhani", sans-serif !important;
 }
@@ -138,7 +138,7 @@ p {
   display: flex;
   justify-content: center;
   height: 400px;
-  margin: 100px;
+  margin: 20px;
 }
 .mainContacto .contenedorContacto input {
   padding: 12px;
@@ -165,7 +165,6 @@ p {
   text-align: center;
   font-family: "Rajdhani", sans-serif !important;
   margin-top: 150px;
-  margin-bottom: 50px;
 }
 
 .contenedorInformacion {
@@ -325,7 +324,7 @@ h3 {
   /* footer web */
   .padreFooter {
     margin-top: 80px;
-    padding: 70px;
+    padding: 10px;
   }
 }
 @media (max-width: 950px) {
@@ -334,12 +333,25 @@ h3 {
     overflow: hidden;
   }
   .padreFooter {
-    padding-block: 50px;
+    padding-block: 10px;
   }
   .contenedorFooter {
     display: flex;
     flex-direction: column !important;
-    margin-block: 50px;
+    margin-block: 20px;
+  }
+  .contenedorFooter .formulario1 {
+    margin-block: 10px;
+  }
+  .contenedorFooter .tituloFooter {
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Rajdhani", sans-serif;
+    margin-top: 50px !important;
+  }
+  .contenedorFooter .formulario1 {
+    margin-right: 33px;
   }
   .contenedorFooter input {
     text-align: center;

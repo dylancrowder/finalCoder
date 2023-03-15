@@ -11,7 +11,7 @@
 
   .padreFooter {
     margin-top: 80px;
-    padding: 70px;
+    padding: 10px;
   }
 
 }
@@ -29,14 +29,32 @@
   }
 
   .padreFooter {
-    padding-block: 50px;
+    padding-block: 10px;
+    
   }
 
 
   .contenedorFooter {
     display: flex;
     flex-direction: column !important;
-    margin-block: 50px;
+    margin-block: 20px;
+
+.formulario1{
+  margin-block: 10px;
+}
+
+    .tituloFooter {
+      margin: auto;
+      text-align: center;
+      font-size: 18px;
+      font-family: $font-family_2 ;
+      margin-top: 50px !important;
+    }
+
+    .formulario1 {
+
+      margin-right: 33px;
+    }
 
     input {
       text-align: center;
@@ -50,18 +68,18 @@
     }
 
 
-.redesSociales{
-  a{
-   
-    margin: 10px;
-  }
+    .redesSociales {
+      a {
 
-  .imagenRedes{
-    width: 60px;
-    
+        margin: 10px;
+      }
 
-  }
-}
+      .imagenRedes {
+        width: 60px;
+
+
+      }
+    }
 
 
   }
